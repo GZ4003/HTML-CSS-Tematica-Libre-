@@ -1,7 +1,11 @@
+*{
+    margin-bottom: 20px;
+}
+
+
 body {
     width: 100vw;
     height: 100vh;
-    background-color: rgb(101, 247, 247);
     font-family: 'Girassol', cursive;
     box-sizing: border-box;
 }
@@ -10,6 +14,7 @@ header {
     position: relative;
     border-bottom: 1px solid rgb(247, 22, 22);
     padding: 16px;
+    background-color: rgb(116, 255, 255);
 }
 
 header .logo {
@@ -26,4 +31,70 @@ header .logo {
 
 .logo img {
     width: 100%;
-    height:auto;
+    height:100%;
+}
+
+main{
+    position: relative;
+    background-color: rgb(116, 255, 255);
+    margin:1px;
+    padding: 80px;
+}
+
+main .image{
+    position: absolute;
+    margin: -37px auto;
+    top: 47px;
+    right:7%;
+}
+
+.image{
+    width: 860px;
+    height: 780px;
+}
+
+.image img {
+    width: 52%;
+    height: 17%;
+}
+
+section{
+    background-color: rgb(116, 255, 255);
+}
+
+article .parrafo{
+    border-bottom: 1px solid rgb(247, 22, 22);
+    border-top: 1px solid rgb(247, 22, 22) ;
+    background-color: rgb(139, 186, 247);
+}
+
+footer {
+    position: relative;
+    border-bottom: 1px solid rgb(247, 22, 22);
+    padding: 50px;
+    background-color: rgb(116, 255, 255);
+}
+
+footer .logo-final {
+    position: absolute;
+    left: 1%;
+    top: 1%;
+}
+
+
+.logo-final {
+    width: 90px;
+    height: 80px;
+}
+
+.logo-final img {
+    width: 100%;
+    height:100%;
+}
+
+footer .link{
+    position: absolute;
+    right: 1%;
+    top: 1%;
+}
+
